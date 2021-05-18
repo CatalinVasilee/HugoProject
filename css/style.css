@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body{
+    background-color: cadetblue;
+}
+
+.navigation{
+    background-color: cadetblue;
+    padding: 1.2em;
+    font-size: 1.5rem;
+
+    width: 100%;
+}
+
+.navbar{ 
+    text-align: center;
+     
+    width: 50%;
+    margin:0 auto;
+}
+
+.nav-link{
+    margin-right: 1em;
+    display: inline;
+     
+    line-height: 1.5em;
+}
+
+.header-container{
+    background-image: url(../images/header-pic.jpg);
+    background-size: contain;
+    opacity: 0.8;
+    padding: 5em;
+
+    font-size: 1.3rem;
+}
+
+.header-div h1{
+    font-size: 5rem;
+    color: #fff;
+
+}
+
+.header-div p{
+    font-size: 3rem;
+    color: #fff;
+}
+
+.competition-buttons{
+    background-color: cadetblue;
+    
+    padding: 3em;
+}
+
+.btn{
+    background-color: #a5e1ad ;
+    padding:1em ;
+    border-radius: 20px;
+    border: 1px transparent;
+
+    font-size: 1.2rem;
+    font-weight: 900;
+    color:#583d72;
+}
+
+.btn:hover{
+    background-color: turquoise;
+}
+
+.middle{
+    margin: 0 5em;
+}
+
+.why-div{
+    background-color: #393e46;
+    opacity: 0.85;
+    padding: 3em;
+
+    font-size: 1.5rem;
+    color: #fff;
+    line-height: 2;
+}
+
+.hor-rule{
+    width: 10%;
+    margin: 1em auto;
+    background-color: cornsilk;
+}
+
+.foot{
+    background-color: cadetblue;
+    padding: 0.6em;
+
+    font-size:1rem ;
+}

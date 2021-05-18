@@ -1,0 +1,41 @@
+*{  
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: cadetblue;
+}
+
+.content{
+    width: 50%;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 1em 2em;
+    background-color: #393e46;
+    opacity: 0.9;
+    color: #fff;
+
+    position: relative;
+}
+
+.content-div{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    margin: auto;
+   height: 70vh;
+}
+ 
+.content h1{
+    font-size: 2.5rem;
+    padding: 1em 0 ;
+}
+.content h3{
+    font-size: 1.5rem;
+    line-height: 1.4;
+} 
